@@ -7,3 +7,5 @@ submission of pl3 assignment
 4.5-B-3Quotes.html file focuses on showing some "brainly quotes" using html only.
 5.6A-form.html deals with design of static web page on bank feedback form
 6.6B.html deals with design of npetl exam registration form
+7.7Afirst.html deals with creation of favorite cartoon static page
+8.7Bsecond.html deals with linking three cartoon pages link and mapping of image
