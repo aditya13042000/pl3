@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NPETL</title>
+	<style type="text/css">
+		body {
+        background-image: url("https://dbgidoon.ac.in/wp-content/uploads/2018/10/NPTEL.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: white;
+      }
+	h1{
+		font-family:Arial;
+		text-align:center;
+		color:blue;
+	}
+	table {
+		  border-collapse: collapse;
+		}
+	table th{
+		font-weight:bold;
+		color:red;
+	}
+	</style>
+	<script type="text/javascript">
+		function display_alert()
+		  {
+		  	alert("Your response has been recorded!!")
+		  }
+	</script>
+</head>
+<body>
+	<header>
+		<h1>NPETL REGISTRATION FORM DEC 2020</h1>
+	</header>
+<center>
+		<form action="npetl.html" method="get" autocomplete="on">
+			<section>
+				<fieldset>
+					<legend><h3 style="color:black;">Personal Info</h3></legend>
+					<table class="table1" align="center" bgcolor="black" width="600px">
+						<th>
+							<h2><b>Student's Information</b></h2>
+						</th>
+						<tr>
+							<td>
+								<label for="Fname">Enter First Name:</label>
+							</td>
+							<td>
+								<input type="text" id="Fname" placeholder="First name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="Mname">Enter Middle Name:</label>
+							</td>
+							<td>
+								<input type="text" id="Mname" placeholder="Middle name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="Lname">Enter Last Name:</label>
+							</td>
+							<td>
+								<input type="text" id="Lname" placeholder="Last name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="Pname">Enter Parent's Name:</label>
+							</td>
+							<td>
+								<input type="text" id="Pname" placeholder="Parent's name" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="Mno">Enter Mobile No:</label>
+							</td>
+							<td>
+								<input type="number" id="Mno" placeholder="Mob No" readonly>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">Enter Email:</label>
+							</td>
+							<td>
+								<input type="email" id="email" placeholder="xyz123@gmail.com" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="add">Enter Address:</label>
+							</td>
+							<td>
+								<input type="text" id="add" placeholder="Address" readonly>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="id">Select ID proof:</label>
+
+							</td>
+							<td>
+								<select id="id" multiple size="2">
+									<option value="clg" selected>COLLEGE ID</option>
+									<option value="Aadhar">AADHAR CARD</option>
+								</select>
+							</td>
+						</tr>
+				</table>
+			</fieldset>
+		</section>
+		<br><br>
+	<div align="center">
+			<input type="image" src="https://previews.123rf.com/images/sarahdesign/sarahdesign1506/sarahdesign150604171/41452187-next-button-icon.jpg" alt="Next" width="150" height="100">
+	</div>
+		<section>
+			<fieldset>
+				<legend><h3 style="color:black;">Educational Info</h3></legend>
+				<table class="table2" align="center" bgcolor="black" width="600px">	
+					<th>
+						<h2><b>Student's Educational Information</b></h2>
+					</th>
+					<tr>
+						<td>
+							<label for"qualification">Qualification:</label>
+						</td>	
+						<td>
+							<select id="qual">	
+								<option value="" selected>none</option>
+								<option value="12th" required>12<suo>th</sup></option>
+								<option value="dip" required>DIPLOMA</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="branch">Select Engineering Branch:</label>
+						</td>
+						<td>
+							<select id="branch" size="1">
+								<option value="engg">Civil</option>
+								<option value="engg">CSE</option>
+								<option value="engg">Electrical</option>
+								<option value="engg">Electronic</option>
+								<option value="engg">Mechanical</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="clg">Colleges Available:</label>
+						</td>
+						<td>
+							<input list="clg">
+							<datalist id="clg" required>
+								<option value="Walchand College Of Engineering,Sangli">
+								<option value="Walchand Institute Of Technology,Solapur">
+								<option value="College Of Engineering,Pune">
+								<option value="Pune Institue Of Technology">
+								<option value="Cummins College,Pune">
+							</datalist>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for="rollno">Enter Roll No.:</label>
+							</td>
+							<td>
+								<input type="text" id="rollno" placeholder="Roll No" required>
+							</td>
+					</tr>	
+				</table>	
+			</fieldset>	
+		</section>	
+		<br><br>
+	<div align="center">
+			<input type="image" src="https://previews.123rf.com/images/sarahdesign/sarahdesign1506/sarahdesign150604171/41452187-next-button-icon.jpg" alt="Next" width="150" height="100">
+	</div>
+		<section>
+			<fieldset>
+				<legend><h3 style="color:black;">Exam Preference</h3></legend>
+				<table class="table3" align="center" bgcolor="black" width="600px">	
+					<th>
+						<h2><b>Exam Preferences</b></h2>
+					</th>
+					<tr>
+						<td>
+							<label for="paper">Select the course you opted for:</label>
+						</td>
+						<td>
+							<select id="paper" multiiple size="1">
+								<option value="1" required>ML for CSE</option>	
+								<option value="2" required>fluid for mechanical</option>	
+								<option value="3" required>circuit for electrical</option>	
+								<option value="4" required>logic gates for electronic</option>	
+								<option value="5" required>remote sensing for civil</option>	
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="city">Select City For Exam:</label>
+						</td>
+						<td>
+							<select id="city">
+								<optgroup label="MAHARASHTRA">
+									<option value="Solp">Solapur</option>
+									<option value="Pune">Pune</option>
+									<option value="Satara">Satara</option>
+								</optgroup>	
+								<optgroup label="KARNATAKA">
+									<option value="Gulb">Gulbarga</option>
+									<option value="Bang">Banglore</option>
+									<option value="Badami">Badami</option>
+								</optgroup>	
+								<optgroup label="TELANGANA">
+									<option value="Hyd">Hyderabad</option>
+									<option value="Nzb">Nizamabad</option>
+									<option value="Alam">Alampur</option>
+								</optgroup>		
+								<optgroup label="UTTAR PRADESH">
+									<option value="Ayo">Ayodhya</option>
+									<option value="Kanpur">Kanpur</option>
+									<option value="Maha">Mahaban</option>
+								</optgroup>	
+							</td>
+						</tr>
+					</table>	
+				</fieldset>
+			</section>
+		<footer align="center">
+			<br><br>
+			<button name = "button" value = "Edit" type = "reset">Reset</button>
+			<button name = "button" value = "submit" onclick="display_alert()" type = "submit">Submit</button>
+		</footer>
+	</form>
+</center>
+</body>
+</html>
