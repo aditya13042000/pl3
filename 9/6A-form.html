@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="6Astyle.css">
+	<script type="text/javascript">
+		function display_alert()
+		  {
+		  	alert("Your response has been recorded!!")
+		  }
+	</script>
+</head>
+<body >
+	<header>
+		<h1 style=" font-family:sans-serif; color:red;">BANK FEEDBACK FORM</h1>
+	</header>
+<form >
+			<section>
+				<table class="table1" >
+					<tr>
+						<td>
+								<label for ="name"><strong> Enter Account Name: &nbsp</strong></label>
+								<input type="text" id="name" placeholder="Name"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for ="email"><strong>Enter Email:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp </strong></label>
+								<input type="email" id="email" placeholder="abc012@gmail.com"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+								<label for="Account No"><strong>Enter Account No:&nbsp &nbsp &nbsp &nbsp </strong></label>
+								<input type ="text" id="prn" placeholder="11 digit Account No"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							
+								<label for="question"><strong>Account type:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></label>
+								<select name="question" id="question">
+									<option value="1">Current Account</option>
+									<option value="2">Savings Account</option>
+									<option value="3">Recurring Deposit Account</option>
+									<option value="4">Fixed Deposit Account</option>
+								</select><br><br>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+								<label for="ID"><strong>Upload Pasbook:&nbsp &nbsp &nbsp &nbsp &nbsp <strong></label>
+								<input type="file" id="ID" accept="application/jpeg"><br><br>
+						</td>
+					</tr>
+			</table>
+		</section>
+	<section>
+		<table class="table2">
+			<th>
+				<h2 align="left" style=" font-family:sans-serif; color:yellow">About Facilities provided by the bank:</h2>
+			</th>
+			<tr>
+				<td>
+						<label for="syllabus">1-Providing Daily update</label>
+				</td>
+				<td>
+						<input type="radio" name="syllabus">Agree<br>
+						<input type="radio" name="syllabus"> Strongly Agree<br>
+						<input type="radio" name="syllabus">Disgree<br>
+						<input type="radio" name="syllabus">Strongly disgree<br>
+						<input type="radio" name="syllabus">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Teach">2-Satisfied with the services?</label>
+				</td>
+				<td>
+					<input type="radio" name="Teach">Agree<br>
+					<input type="radio" name="Teach"> Strongly Agree<br>
+					<input type="radio" name="Teach">Disgree<br>
+					<input type="radio" name="Teach">Strongly disgree<br>
+					<input type="radio" name="Teach">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="lab">3-Ease of finding the offers</label>
+				</td>
+				<td>
+					<input type="radio" name="lab">Agree<br>
+					<input type="radio" name="lab"> Strongly Agree<br>
+					<input type="radio" name="lab">Disgree<br>
+					<input type="radio" name="lab">Strongly disgree<br>
+					<input type="radio" name="lab">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Academics">4-Overall Branch Rating</label>
+				</td>
+				<td>
+					<input type="radio" name="Academic">Agree<br>
+					<input type="radio" name="Academic"> Strongly Agree<br>
+					<input type="radio" name="Academic">Disgree<br>
+					<input type="radio" name="Academic">Strongly disgree<br>
+					<input type="radio" name="Academic">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>5-Politeness of Employees</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Agree<br>
+					<input type="radio" name="General"> Strongly Agree<br>
+					<input type="radio" name="General">Disgree<br>
+					<input type="radio" name="General">Strongly disgree<br>
+					<input type="radio" name="General">Neutral<br>
+				</td>
+			<tr>
+			<tr>
+				<td>
+					<label>6-Ease of scheme explanation</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Agree<br>
+					<input type="radio" name="General"> Strongly Agree<br>
+					<input type="radio" name="General">Disgree<br>
+					<input type="radio" name="General">Strongly disgree<br>
+					<input type="radio" name="General">Neutral<br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>7-Is time required for query resolution high?</label>
+				</td>
+				<td>
+					<input type="radio" name="General">Yes<br>
+					<input type="radio" name="General"> No<br>	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="suggestion">Write Your Suggestions</label>
+				</td>
+				<br>
+				<td>
+                    <br>
+					<textarea name="bio" id="bio" cols="30" rows="5" placeholder="About Bank!!"></textarea><br><br>
+				</td>
+			</tr>
+		</table>
+	</section>
+<!-- </center> -->
+	<div>
+			<br><br>
+            <!-- <button name = "button" value = "Edit" type = "reset">Edit</button> -->
+            <button class="button button2" name = "button" value = "Edit" type = "reset">Edit</button>
+            <button class="button button1"name = "button" value = "submit" onclick="display_alert()" type = "submit">Submit</button>
+	</div>
+</form>
+</body>
+</html>

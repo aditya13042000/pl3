@@ -1,0 +1,61 @@
+ body {
+        background-image: url("https://media.bizj.us/view/img/2850811/158673029*1200xx3645-2050-0-342.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: white;
+        margin: 20px;
+        font-style: oblique;
+        border: 1px solid red;
+      }
+      h1{
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#primary{
+  
+  color: rgb(255, 255, 0);
+}
+p {
+        text-align: center;
+         margin: 10px;
+      }
+      image {
+    vertical-align: middle;
+    }
+        .button {
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+        }
+        .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+        }
+        .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+        }
+
+        .button2:hover {
+        background-color: #008CBA;
+        color: white;
+        }
+        table.table2 td {
+		  border-bottom: 1px dashed black; 
+		}
