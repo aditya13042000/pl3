@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Fundamentals</title>
+	<link rel="stylesheet" href="5B2style.css">
+</head>
+<body>
+	<header><h2><marquee>Problem Statement: Write a program in any language to find the Armstrong number in given range.</marquee></h2></header><hr>
+	<section>
+		<h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      Program</h2>
+		<code>
+			#include &lt stdio.h &gt<br>
+			void main()<br>
+			{<br>
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int num,r,sum,temp;<br>
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int stno,enno;<br>
+	    
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Input starting number of range: ");<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d",&stno);<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Input ending number of range : ");<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d",&enno);<br>
+	   
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Armstrong numbers in given range are: ");<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(num=stno;num<=enno;num++)<br>
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temp=num;<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum=0;<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(temp!=0)<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r=temp % 10;<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;temp=temp/10;<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum=sum+(r*r*r);<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(sum==num)<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%d ",num);<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+
+	    	&nbsp;&nbsp;&nbsp;printf("\n");<br>
+			}
+
+		</code>	
+	</section><hr>
+	<section>
+		<h2>Input</h2>
+		<p>Input starting number of range: 1 <br>                                                                            
+           Input ending number of range : 1000
+			
+		</p>
+
+	</section><hr>
+	<section>
+		<h2>Output</h2>
+		<p>Armstrong numbers in given range are: 1 153 370 371 407</p>
+	</section><hr>
+	<section>
+		<h2>Variables used in the program</h2>
+		<var>num,r,sum,temp,stno,enno</var>
+	</section><hr>
+	<section>
+		<h2>Complexity</h2>
+		<small>The complexitiy of above program is: O(n * d)</small>
+	</section><hr>
+	<h2 style="color: green"><strong>Click here for More Algorithms</strong></h2>
+	<p><a href="https://www.geeksforgeeks.org/">Geeks For Geeks</a></p>
+	<p><a href="https://www.w3resource.com/c-programming-exercises/">W3 resources</a></p>
+	
+</body>
+</html>

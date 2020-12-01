@@ -1,0 +1,32 @@
+
+body {
+  background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-smooth-flowing-waves-on-light-background-video-animation-hd-1920x1080_v1gtgzrrzg_thumbnail-1080_08.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: black;
+        margin: 20px;
+        font-style: oblique;
+        border: 1px solid red;
+}
+article{
+  border-style: dashed;
+}
+
+      h1{
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#primary{
+  
+  color: rgb(255, 255, 0);
+}
+
+      p {
+        text-align: center;
+         margin: 10px;
+      }
+      image {
+    vertical-align: middle;
+    }

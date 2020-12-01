@@ -1,0 +1,29 @@
+
+body {
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-texture-geometric-black-metal-gradient-image_17809.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: white;
+        margin: 20px;
+        font-style: oblique;
+        border: 1px solid red;
+      }
+
+      h1{
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#primary{
+  
+  color: rgb(255, 255, 0);
+}
+
+      p {
+        text-align: center;
+         margin: 10px;
+      }
+      image {
+    vertical-align: middle;
+    }
